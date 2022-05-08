@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+p{
+    font-size: 2.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span{
+    color: rebeccapurple;
+    font-size: 0.6rem;
+    height: 1.5rem;
+}
+
+.super{
+    /*realiza un movimiento de -1px vertical (arriba) relativo a su contenedor p*/
+    position: relative;
+    top: -1rem;
+}
+
+.sub{
+    /*realiza un movimiento de -1px vertical (abajo) relativo a su contenedor p*/
+    position: relative;
+    bottom: -1rem;
+}
+
+.shiftleft{
+    /*realiza un desplazamiento hacia la izquierda*/
+    position: relative;
+    left: -1rem;
+}
+
+.shiftright{
+    /*realiza un desplazamiento hacia la izquierda*/
+    position: relative;
+    right: -1rem;
+}

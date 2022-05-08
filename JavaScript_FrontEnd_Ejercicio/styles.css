@@ -1,0 +1,46 @@
+:root{
+--primary_green_button: #16796F;
+--secondary_green_success: #7CB7AF;
+--tertiary_blue_background: #CADEDF;
+--fourty_green_error: #9CA89E;
+--principal_text_title: 18px;
+--secondary_text_content: 16px;
+--tertiary_text: 14px;
+--other_text: 12px;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    width: 100%;
+}
+
+header{
+    background-color: cadetblue;
+    
+    height: 30px;
+    font-size: var(--other_text);
+}
+main{
+    background-color: var(--tertiary_blue_background);
+    
+    font-size: var(--secondary_text_content);
+}
+
+h1{
+    font-size: var(--principal_text_title);
+}
+
+.subtitle{
+    font-size: var(--tertiary_text);
+}
+
+.final_message{
+    font-size: var(--other_text);
+}

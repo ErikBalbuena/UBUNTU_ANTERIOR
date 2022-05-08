@@ -1,0 +1,37 @@
+.main-nav{
+margin-top: 10px;
+/*quita los billets*/
+list-style: none;
+/*quita el espacio entre el marco y la página*/
+padding: 0%;
+}
+
+.main-nav__item{
+display: inline-block;
+}
+
+/*Ser específico el anchor despúes de main-nav__item*/
+
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: blue;
+    }
+
+    /*pseudo clase :, define un estilo de un estado cuando este el mouse sobre el elemento*/
+
+    .main-nav__item a:hover{
+        color: red;
+    }
+
+    .main-nav__item a:active{
+        color: blueviolet;
+    }
+
+    /*Esta es una pseudo elemento ::, parte específica cambia el estilo de una parte de un elemento */
+    .main-nav__item a::after{
+        content: " | " ;
+    }
+

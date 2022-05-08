@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+header{
+    background-color: skyblue;
+   /*text-align afecta la posiciòn de la imagen*/
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.2em;
+    font-size: 0.6rem;
+}
+
+p{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: .5em;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+.floated{
+    background-color: lightgray;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .2em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+    float: left;
+    text-align: center;
+    width: 50%;
+
+}
+
+section{
+    border: 1px solid skyblue;
+}
+
+

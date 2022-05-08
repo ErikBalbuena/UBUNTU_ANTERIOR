@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.background_image{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+
+}
+
+.foreground_image{
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    z-index: 2;
+}
+
+.text{
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    z-index: 3;
+    font-size: 2.0rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

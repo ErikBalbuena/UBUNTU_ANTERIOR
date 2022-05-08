@@ -1,0 +1,16 @@
+/*Este es un modificador universal*/
+/*Se emplea para eliminar los bordes colocados por la página*/
+
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;/*sirve para ajustar el padding con el width del elemento*/
+}
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    border: 10px solid grey;
+    padding: 20px 35px
+}

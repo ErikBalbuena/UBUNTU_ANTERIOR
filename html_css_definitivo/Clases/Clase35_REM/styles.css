@@ -1,0 +1,15 @@
+/*Como rem esta basado en a6 px que es de html*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+p{
+    font-size: 10rem;
+}
+/*1rem = 16px*/

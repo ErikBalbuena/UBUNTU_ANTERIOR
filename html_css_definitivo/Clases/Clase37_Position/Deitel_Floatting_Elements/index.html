@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flotantes</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header><img src = "./sources/3466538_0.jpg" alt = "HORUS" /></header>
+    <section>
+        <h1 class="floated"> SUB SOLE NIHIL NOVI EST</h1>
+        <p>
+            We’ve seen with absolute positioning that it’s possible to remove elements from the normal
+            flow of text. Floating allows you to move an element to one side of the screen; other content
+            in the document then flows around the floated element. Figure 4.15 demonstrates how float-
+            ing elements and the box model can be used to control the layout of an entire page.
+            Looking at the HTML5 code, we can see that the general structure of this document
+            consists of a header and two main sections. Each section contains an h1 subheading and
+            a paragraph of text.
+            Block-level elements (such as sections) render with a line break before and after their
+            content, so the header and two sections will render vertically one on top of another. In
+            the absence of our styles, the h1s that represent our subheadings would also stack vertically
+            on top of the text in the p tags. However, in line 24 we set the float property to right in
+            the class floated, which is applied to the h1 headings. This causes each h1 to float to the
+            right edge of its containing element, while the paragraph of text will flow around it.
+        </p>
+    </section>
+    <section>
+        <h1 class="floated">GUERRERO DE DIOS</h1>
+        <p>
+            margin and padding Properties
+Line 16 assigns a margin of .5em to all paragraph elements. The margin property sets the
+space between the outside of an element’s border and all other content on the page. Line
+21 assigns .2em of padding to the floated h1s. The padding property determines the dis-
+tance between the content inside an element and the inside of the element’s border. Mar-
+gins for individual sides of an element can be specified (lines 17, 22 and 23) by using the
+properties margin-top, margin-right, margin-left and margin-bottom. Padding can be
+specified in the same way, using padding-top, padding-right, padding-left and pad-
+ding-bottom. To see the effects of margins and padding, try putting the margin and pad-
+ding properties inside comments and observing the difference.
+In line 27, we assign a border to the section boxes using a shorthand declaration of
+the border properties, which allow you to define all three border properties in one line.
+The syntax for this shorthand is border: width style color
+Our border is one pixel thick, solid, and the same color as the background-color prop-
+erty of the header (line 10). This allows the border to blend with the header and makes
+the page appear as one box with a line dividing its sections.
+        </p>
+    </section>
+
+</body>
+</html>

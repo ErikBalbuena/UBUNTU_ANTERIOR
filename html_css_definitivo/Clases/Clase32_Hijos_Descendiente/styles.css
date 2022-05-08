@@ -1,0 +1,9 @@
+
+/*p hijo directo de div*/
+div > p {
+    color: blueviolet;
+}
+/*todas las etiquetas a que esten dentro de la clase nav*/
+.nav a{
+    color: aqua;
+}

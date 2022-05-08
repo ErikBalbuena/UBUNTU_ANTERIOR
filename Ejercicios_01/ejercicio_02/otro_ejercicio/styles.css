@@ -1,0 +1,65 @@
+/*Esta es la plantilla de buenas pràcticas*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* 1rem = 10px */
+html{
+    font-size: 62.5%;
+}
+
+/*buenas pràcticas: hacer multi dispositivo
+modificar font-size de html al aplicar
+media queries (breakpoints), solo utilizar 
+una web font, declarar variables en root:{}. */
+
+main{
+    background-color: aqua;
+    font-size: 2rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    background-color: blueviolet;
+    border: 0.3rem solid black;
+    border-radius: 1.8rem;
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+
+}
+
+.texto{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    bottom: 0;
+    text-align: center;
+}
+
+.titulo{
+    background-color: cadetblue;
+    border: 0.3rem solid black;
+    border-radius: 0.8rem;
+    position: relative;
+    width: 60%;
+    left: 20%;
+    bottom: 1.5rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+img{
+    border: 0.3rem solid black;
+    border-radius: 0.8rem;
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    top: 15%;
+    left: 25%;
+}

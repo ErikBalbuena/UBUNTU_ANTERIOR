@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(./sources/3466538_0.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: lightseagreen;
+    background-size: 15rem;
+}
+
+body p{
+    font-size: 2.8rem;
+    color: darkblue;
+    text-indent: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.dark{
+    font-weight: bold;
+}

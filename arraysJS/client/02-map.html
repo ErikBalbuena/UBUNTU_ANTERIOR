@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAP</title>
+    <script src="./02-map.js"></script>
+</head>
+<body>
+    <h1>MAP EN JAVASCRIPT</h1>
+
+    <div id="app"></div><!--Esta se genera en JS-->
+    <script>
+        const array01 = [{titulo: "Nevermind", banda: "Nirvana"},{titulo: "In Utero", banda: "Nirvana"}];
+        const ObjDivApp =  document.getElementById("app");
+        const listaHtml = array01.map(disco => {
+            return `<li>${disco.banda} --- ${disco.titulo}</li>`;
+        });
+        ObjDivApp.innerHTML = listaHtml.join(" ");
+    </script>
+</body>
+</html>

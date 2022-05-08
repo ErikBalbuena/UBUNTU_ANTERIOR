@@ -1,0 +1,78 @@
+/*Esta es la plantilla de buenas pràcticas*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* 1rem = 10px */
+html{
+    font-size: 62.5%;
+}
+
+/*buenas pràcticas: hacer multi dispositivo
+modificar font-size de html al aplicar
+media queries (breakpoints), solo utilizar 
+una web font, declarar variables en root:{}. */
+
+header{
+    background-color: blue;
+    height: 10vh;
+}
+
+main{
+    background-color: blueviolet;
+    height: 80vh;
+}
+
+.panel_lateral{
+    position: absolute;
+    left: 0vw;
+
+    background-color: deepskyblue;
+    width: 30vw;
+    height: inherit;
+}
+
+.panel_principal{
+    position: absolute;
+    right: 0vw;
+
+    background-color: darkslategrey;
+    width: 70vw;
+    height: inherit;
+}
+
+.contenedor_lateral_1{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 80%;
+    height: 20%;
+    background-color: lightblue;
+    
+}
+
+.contenedor_lateral_2{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    width: 80%;
+    height: 20%;
+    background-color: lightblue;
+    
+}
+
+.contenedor_lateral_3{
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    width: 80%;
+    height: 20%;
+    background-color: lightblue;
+    
+}
+
+footer{
+    background-color: cornflowerblue;
+    height: 10vh;
+}
